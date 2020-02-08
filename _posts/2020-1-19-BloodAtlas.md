@@ -5,10 +5,24 @@ title: Science Paper on Blood Atlas
 
 Lineage | Cell Type | Uhlen, M., et al. | Monaco, G., et al. | Schmiedel, B.J. et al.
 ---|---|---|---|---
-Lymphocytes ||||
-Dendritic cell ||||
-Monocytes ||||
-Granulocytes ||||
+Lymphocytes |NK|x|x|x
+-|Naive B|x|x|x
+-|Memory B|x|Switched<br>Non-Switched|
+-|Naive CD4|x|x|and activated
+-|Reg T|x|x|
+-|Other CD4||Tfh,Th1,Th1/Th17,Th17,Th2,TE|Tfh,Th1,Th1/Th17,Th17,Th2
+-|Naive CD8|x|x|and activated
+-|Other CD8||TCM,TEM,TE|
+-|gd T|x|Vdelta2<br>Non-Vdelta2|
+-|MAIT|x|x|
+Dendritic cell |Myeloid DC|x|x|
+-|Plasmacytoid DC|x|x|
+Monocytes |Classicial Mono|x|x|x
+-|Intermediate Mono|x|x|
+-|Non-classicial Mono|x|x|x
+Granulocytes |Basophil|x|x|
+-|Eosinophil|x||
+-|Neutrophil|x|x|
 
 1. [A genome-wide transcriptomic analysis of protein-coding genes in human blood cells](https://science.sciencemag.org/content/366/6472/eaax9198)
 

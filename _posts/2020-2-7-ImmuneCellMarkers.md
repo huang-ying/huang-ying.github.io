@@ -38,8 +38,8 @@ Dendertic cells (DC) | LYZ, S100A9, FCER1A
 B cells | CD79A, CD79B, CD19
 Naive and central memory CD4 T cells | CD3E, CD4, SELL, CD27
 Naive and central memory CD8 T cells | CD3E, CD8A, SELL, CD27
-Effector memory CD4 T cells | CD3E, CD4, CD27, PRFI, GNLY
-Effector memory CD8 T cells | CD3E, CD8A, CD27, PRFI, GNLY
+Effector memory CD4 T cells | CD3E, CD4, CD27, PRF1, GNLY
+Effector memory CD8 T cells | CD3E, CD8A, CD27, PRF1, GNLY
 NK | CD3E-, NKG7
 
 #### [Seurat PBMC3K Tutorial](https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html)
@@ -49,11 +49,11 @@ NK | CD3E-, NKG7
 Cell Type | Markers 
 ---|---
 CD14+ Mono | CD14, LYZ
-FCGR3A+ Mono | FCGR3A, MS4A7
+FCGR3A+ Mono | FCGR3A(CD16), MS4A7
 DC | FCER1A, CST3
-B | MS4A1
-Naive CD4+ T | IL7R, CCR7
-Memory CD4+ T | IL7R, S100A4
+B | MS4A1(CD20)
+Naive CD4+ T | IL7R(CD127), CCR7
+Memory CD4+ T | IL7R(CD127), S100A4
 CD8+ T | CD8A
 NK | GNLY, NKG7
 Platelet | PPBP
@@ -67,14 +67,14 @@ https://www.biolegend.com/essential_markers
 
 Cell Type | Markers 
 ---|---
-CD34+ | CD34, THY1, ENG, KIT, PROM1
-Monocytes | CD14, FCGR1A, CD68, S100A12
-Dendritic cells | IL3RA, CD1C, BATF3, THBD, CD209
-B cells | CD19, MS4A1, CD79A
+CD34+ | CD34, THY1(CD90), ENG, KIT(CD117), PROM1(CD133)
+Monocytes | CD14, FCGR1A(CD64), CD68, S100A12
+Dendritic cells | IL3RA(CD123), CD1C, BATF3, THBD(CD141), CD209
+B cells | CD19, MS4A1(CD20), CD79A
 T cells | CD3D, CD3E, CD3G
-CD4 T cells | CD4, FOXP3, IL2RA(CD25), IL7R
+CD4 T cells | CD4, FOXP3, IL2RA(CD25), IL7R(CD127)
 CD8 T cells | CD8A, CD8B
-NK cells | NCAM1, FCGR3A
+NK cells | NCAM1(CD56), FCGR3A(CD16)
 
 
 

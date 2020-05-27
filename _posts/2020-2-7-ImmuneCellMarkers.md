@@ -3,6 +3,23 @@ layout: post
 title: "A Incomplete Summary of Immune Cell Markers from scRNA-Seq Literature"
 ---
 
+#### [Systematic comparative analysis of single cell RNA-sequencing methods](https://www.biorxiv.org/content/10.1101/632216v2)
+
+Their cell type assignment is based on the difference between average expression of positive marker and average expression of negative markers.
+
+ Cell Type | Markers 
+---|---
+CD4+ T cell | CD3D, CD3E, CD3G, TRAC, CD4, TCF7, CD27, IL7R(CD127), CD8A-, CD8B-, GNLY-, NKG7-, CST7-
+Cytotoxic T cell | CD3D, CD3E, CD3G, TRAC, CD8A, CD8B, GZMK, CCL5, NKG7, CD4-, FCER1G-(CD23-)
+B cell | CD19, MS4A1(CD20), CD79A, CD79B, MZB1, IGHD, IGHM
+NK cell | NCAM1(CD56), NKG7, KLRB1, KLRD1, KLRF1, KLRC1, KLRC2, KLRC3, KLRC4, FCGR3A(CD16), FCGR3B(CD16), FCER1G(CD23), ITGAL(CD11A), ITGAM(CD11B), CD3D-, CD3E-, CD3G-, CD14-, TRAC-
+CD14+ monocyte | VCAN, FCN1, S100A8, S100A9, S100A12, CD14, ITGAL, ITGAM, CSF3R, CSF1R, CX3CR1, TYROBP, LYZ, FCGR3A-, FCGR3B-, CD3D-, CD3E-, TRAC-, NKG7-, KLRB1-, KLRD1-
+CD16+ monocyte | FCN1, FCGR3A(CD16), FCGR3B(CD16), ITGAL(CD11A), ITGAM(CD11B), CSF3R(CD114), CSF1R(CD115), CX3CR1, CDKN1C, MS4A7, S100A8-, S100A9-, S100A12-, CD14-, CD3D-, CD3E-, CD3G-, TRAC-, NKG7-, KLRB1-, KLRD1-
+Dendritic cell | HLA-DPA1, HLA-DPB1, HLA-DQA1, ITGAX(CD11C), CD1C, CD1E, FCER1A, FCGR2B(CD32), CLEC10A(CD301), CD3D-, CD3E-, CD3G-, NCAM1-(CD56-), CD19-, CD14-, MS4A1-, CD79A-, CD79B-
+Plasmacytoid dendritic cell | IL3RA(CD123), GZMB, JCHAIN, IRF7, TCF4, LILRA4(CD85g), CLEC4C(CD303), ITGAX-(CD11C-), CD3D-, CD3E-, CD3G-, NCAM1-(CD56-), CD19-, CD14-, MS4A1-(CD20-), CD79A-, CD79B-
+Plasma cell | IGHA1, IGHA2, IGHG1, IGHG2, IGHG3, IGHG4, CD38, XBP1, CD27, SLAMF7(CD319), CD19-, MS4A1-(CD20-), CD3D-, CD3E-, CD3G-
+Megakaryocyte | PF4, PPBP, GP5(CD42d), ITGA2B(CD41), NRGN, TUBB1, SPARC, RGS18, MYL9, GNG11
+
 #### [Massively parallel digital transcriptional profiling of single cells](https://www.ncbi.nlm.nih.gov/pubmed/28091601)
 
 **Citation:** Zheng, G.X., et al. Nat Commun 2017;8:14049.
@@ -38,8 +55,8 @@ Dendertic cells (DC) | LYZ, S100A9, FCER1A
 B cells | CD79A, CD79B, CD19
 Naive and central memory CD4 T cells | CD3E, CD4, SELL, CD27
 Naive and central memory CD8 T cells | CD3E, CD8A, SELL, CD27
-Effector memory CD4 T cells | CD3E, CD4, CD27, PRFI, GNLY
-Effector memory CD8 T cells | CD3E, CD8A, CD27, PRFI, GNLY
+Effector memory CD4 T cells | CD3E, CD4, CD27, PRF1, GNLY
+Effector memory CD8 T cells | CD3E, CD8A, CD27, PRF1, GNLY
 NK | CD3E-, NKG7
 
 #### [Seurat PBMC3K Tutorial](https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html)
@@ -49,11 +66,11 @@ NK | CD3E-, NKG7
 Cell Type | Markers 
 ---|---
 CD14+ Mono | CD14, LYZ
-FCGR3A+ Mono | FCGR3A, MS4A7
+FCGR3A+ Mono | FCGR3A(CD16), MS4A7
 DC | FCER1A, CST3
-B | MS4A1
-Naive CD4+ T | IL7R, CCR7
-Memory CD4+ T | IL7R, S100A4
+B | MS4A1(CD20)
+Naive CD4+ T | IL7R(CD127), CCR7
+Memory CD4+ T | IL7R(CD127), S100A4
 CD8+ T | CD8A
 NK | GNLY, NKG7
 Platelet | PPBP
@@ -67,14 +84,14 @@ https://www.biolegend.com/essential_markers
 
 Cell Type | Markers 
 ---|---
-CD34+ | CD34, THY1, ENG, KIT, PROM1
-Monocytes | CD14, FCGR1A, CD68, S100A12
-Dendritic cells | IL3RA, CD1C, BATF3, THBD, CD209
-B cells | CD19, MS4A1, CD79A
+CD34+ | CD34, THY1(CD90), ENG, KIT(CD117), PROM1(CD133)
+Monocytes | CD14, FCGR1A(CD64), CD68, S100A12
+Dendritic cells | IL3RA(CD123), CD1C, BATF3, THBD(CD141), CD209
+B cells | CD19, MS4A1(CD20), CD79A
 T cells | CD3D, CD3E, CD3G
-CD4 T cells | CD4, FOXP3, IL2RA(CD25), IL7R
+CD4 T cells | CD4, FOXP3, IL2RA(CD25), IL7R(CD127)
 CD8 T cells | CD8A, CD8B
-NK cells | NCAM1, FCGR3A
+NK cells | NCAM1(CD56), FCGR3A(CD16)
 
 
 

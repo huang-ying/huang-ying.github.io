@@ -5,7 +5,7 @@ title: "Some Textbooks on Probability"
 
 #### 1. [Probability I/II by Shiryaev](https://www.springer.com/gp/book/9780387722054)
 
-只读了第一章基本概率理论（有限样本空间）和第二章的几节。但是在第一章已经包括了随机游走、鞅等很有意思的内容。写得真好，逻辑性强，而且会不时解释一下一些推导的原因。另外可以找到中文版的概率论习题集。
+只读了第一章基本概率理论（有限样本空间）和第二章的几节。但是在第一章已经包括了随机游走、鞅和马尔科夫链等很有意思的内容。写得真好，逻辑性强，而且会不时解释一下一些推导的原因。另外可以找到中文版的概率论习题集。
 
 #### 2. [Real Analysis and Probability by Dudley](https://www.cambridge.org/core/books/real-analysis-and-probability/26DDF2D09E526185F2347AA5658B96F6)
 
